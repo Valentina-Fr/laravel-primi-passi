@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>Hello {{ $name }}</h1>
+    <ul>
+        <li><a href="{{ route('pag_1') }}">Pagina 1</a></li>
+        <li><a href="{{ route('pag_2') }}">Pagina 2</a></li>
+        <li><a href="{{ route('pag_3') }}">Pagina 3</a></li>
+    </ul>
 </body>
 </html>
